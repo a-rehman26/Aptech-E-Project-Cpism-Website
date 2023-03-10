@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 769px) {
+
+    html {
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .navResicon .closeNav {
+        /* display: none; */
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(-300%);
+        transition: all 1.5s ease;
+    }
+
+    .navResicon .menuNav {
+        display: block;
+        font-size: 35px;
+    }
+
+    .navbarLogo img {
+        width: 105px;
+        height: 70px;
+        border-radius: 20%;
+    }
+
+    .navDivLinks ol li a {
+        position: relative;
+        display: block;
+        cursor: pointer;
+        text-decoration: none;
+        color: lightgray;
+        font-size: 1.6rem;
+        padding: 5px;
+        text-transform: capitalize;
+        transition: all 0.3s ease-in-out;
+        font-family: 'Merienda', cursive;
+    }
+
+    .navDivLinks ol li a::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #555;
+        transform: scale(0);
+        transform-origin: left;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .navDivLinks ol li a:hover::after {
+        transform: scale(0);
+        transform-origin: left;
+    }
+
+    .searchIcondiv i {
+        color: #333;
+        cursor: pointer;
+        font-size: 25px;
+        margin: 10px 0 0 0;
+    }
+
+    .navDivLinks {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #333;
+        z-index: 999;
+
+        transform: translateX(-200%);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .activeNavbar .navDivLinks {
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .activeNavbar .closeNav {
+        /* display: block; */
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+        z-index: 999;
+        position: absolute;
+        top: 25px;
+        right: 46px;
+        color: lightgray;
+        font-size: 50px;
+    }
+
+    .navDivLinks .navOlTag {
+        display: flex;
+        flex-direction: column;
+        margin: 80px 35px;
+        line-height: 35px;
+    }
+
+    /* bg image home page  */
+    #homeBGimage {
+        width: 100%;
+        height: 95vh;
+        position: relative;
+        background: rgba(0, 0, 0, 0.3) url(images/home\ bg\ image\ 01.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-blend-mode: darken;
+    }
+
+
+    .homeContentDiv {
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .homeContentDiv h4 {
+        font-size: 3.2rem;
+        color: #222;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        font-family: 'Bree Serif', serif;
+        cursor: pointer;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    .homeContentDiv h2 {
+        text-align: center;
+        padding: 10px 0;
+        margin: 0;
+        font-size: 3.5rem;
+        font-weight: 800;
+        color: #222;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: 'Merienda', cursive;
+        cursor: pointer;
+    }
+
+    .homeContentDiv p {
+        width: 50%;
+        color: #333;
+        text-transform: capitalize;
+        font-size: 1.4rem;
+        padding: 10px 0;
+        margin: 0;
+        line-height: 22px;
+        /* font-family: 'Lato', sans-serif; */
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    .homeContentDiv button {
+        padding: 10px 15px;
+        margin: 10px 0;
+        cursor: pointer;
+        border: 1px solid #333;
+        background-color: #555;
+        border-radius: 10px;
+        color: #222;
+        font-size: 1.6rem;
+        letter-spacing: 0.4px;
+        font-family: 'Lato', sans-serif;
+        box-shadow: inset 0 0 0 0 #333;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .homeContentDiv button:hover {
+        box-shadow: inset 0 0 300px 0 #333;
+        color: #999;
+        border: 1px solid #777;
+    }
+
+
+}
