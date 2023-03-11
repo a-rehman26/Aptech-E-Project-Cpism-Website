@@ -76,7 +76,7 @@
 
 }
 
-.navDivLinks ol li a::after {
+.navlinks::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -89,7 +89,7 @@
     transition: all 0.5s ease-in-out;
 }
 
-.navDivLinks ol li a:hover::after {
+.navlinks:hover::after {
     transform: scale(1);
     transform-origin: left;
 }
@@ -103,6 +103,7 @@
 }
 
 .searchIcondiv ol li {
+    display: inline-block;
     list-style-type: none;
 }
 
@@ -113,8 +114,65 @@
 .searchIcondiv i {
     color: #333;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 24px;
+    margin: 0 15px;
 }
+
+
+/* dropdown one for catogeries  */
+.ddOne {
+    display: none;
+}
+
+.navDivLinks ol li:hover .ddOne {
+    display: block;
+    position: absolute;
+    width: 225px;
+    height: auto;
+    margin-top: 3px;
+    margin-left: 0;
+    padding: 0;
+    z-index: 999;
+}
+
+.navDivLinks ol li:hover .ddOne ol li {
+    display: block;
+    margin: 0;
+    padding: 12px 0 0 0;
+}
+
+.navDivLinks ol li:hover .ddOne ol li a {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #111;
+    font-size: 1.7rem;
+    padding: 5px;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Merienda', cursive;
+}
+
+.arrowDDup {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.1s ease;
+    display: none;
+}
+
+/* 
+.navDivLinks ol li:hover .arrowDDup {
+    opacity: 1;
+    visibility: visible;
+} */
+
+/* .navDivLinks ol li:hover .arrowDDup {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+} */
+
 
 /* bg image home page  */
 #homeBGimage {

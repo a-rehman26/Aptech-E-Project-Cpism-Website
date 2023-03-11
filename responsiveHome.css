@@ -69,7 +69,7 @@
         color: #333;
         cursor: pointer;
         font-size: 25px;
-        margin: 10px 0 0 0;
+        margin: 10px 15px 0 15px;
     }
 
     .navDivLinks {
@@ -112,6 +112,45 @@
         margin: 80px 35px;
         line-height: 35px;
     }
+
+
+    /* dropdown one for catogeries  */
+    .ddOne {
+        display: none;
+    }
+
+    .navDivLinks ol li:hover .ddOne {
+        display: block;
+        position: relative;
+        width: 225px;
+        height: auto;
+        margin-top: 3px;
+        margin-left: 0;
+        padding: 20px 0;
+        z-index: 999;
+
+    }
+
+    .navDivLinks ol li:hover .ddOne ol li {
+        display: block;
+        margin: 0;
+        padding: 5px 15px;
+    }
+
+    .navDivLinks ol li:hover .ddOne ol li a {
+        position: relative;
+        display: block;
+        cursor: pointer;
+        text-decoration: none;
+        color: lightgray;
+        font-size: 1.7rem;
+        padding: 5px;
+        text-transform: capitalize;
+        transition: all 0.3s ease-in-out;
+        font-family: 'Merienda', cursive;
+    }
+
+
 
     /* bg image home page  */
     #homeBGimage {
