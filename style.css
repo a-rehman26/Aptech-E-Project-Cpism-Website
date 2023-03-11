@@ -72,6 +72,8 @@
     /* font-family: 'Poppins', sans-serif; */
     /* font-family: 'Roboto', sans-serif; */
     /* font-family: 'Signika Negative', sans-serif; */
+    /* font-family: "Playfair Display", Georgia, serif; */
+    /* font-family: 'Alata', sans-serif; */
     font-family: 'Merienda', cursive;
 
 }
@@ -114,10 +116,14 @@
 .searchIcondiv i {
     color: #333;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 26px;
     margin: 0 15px;
 }
 
+
+.ddOne i {
+    color: #666;
+}
 
 /* dropdown one for catogeries  */
 .ddOne {
@@ -141,7 +147,7 @@
     padding: 12px 0 0 0;
 }
 
-.navDivLinks ol li:hover .ddOne ol li a {
+.navDivLinks ol li:hover .ddOne ol li .ddONElinks {
     position: relative;
     display: block;
     cursor: pointer;
@@ -151,7 +157,15 @@
     padding: 5px;
     text-transform: capitalize;
     transition: all 0.3s ease-in-out;
-    font-family: 'Merienda', cursive;
+    /* font-family: 'Merienda', cursive; */
+    /* font-family: 'Bree Serif', serif; */
+    font-family: "Playfair Display", Georgia, serif;
+    font-family: 'Alata', sans-serif;
+}
+
+.navDivLinks ol li:hover .ddOne ol li .ddONElinks:hover {
+    transform: translateX(1.5px);
+    letter-spacing: 1px;
 }
 
 .arrowDDup {
@@ -161,17 +175,76 @@
     display: none;
 }
 
-/* 
-.navDivLinks ol li:hover .arrowDDup {
-    opacity: 1;
-    visibility: visible;
-} */
 
-/* .navDivLinks ol li:hover .arrowDDup {
-    opacity: 0;
-    visibility: hidden;
+/* dropdown 2  */
+.ddTwo {
     display: none;
-} */
+}
+
+.ddOne ol li:hover .ddTwo {
+    display: block;
+    position: absolute;
+    width: 550px;
+    height: auto;
+    margin-top: -46px;
+    margin-left: 185px;
+    padding: 10px;
+    z-index: 999;
+}
+
+.dawlanceDivcategories h1 {
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #222;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Merienda', cursive;
+    cursor: pointer;
+}
+
+.DawlanceOLTAG {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.DawlanceOLTAG li {
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+}
+
+
+.DawlanceOLTAG .ddTwobrandCategories {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #222;
+    font-size: 1.7rem;
+    padding: 5px;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+    /* font-family: 'Merienda', cursive; */
+    /* font-family: 'Bree Serif', serif; */
+    /* font-family: "Playfair Display", Georgia, serif; */
+    font-family: 'Alata', sans-serif;
+}
+
+.DawlanceOLTAG .ddTwobrandCategories:hover {
+    opacity: 0.8;
+    color: #111;
+}
+
+
+.ddFlexhomeAppliancediv {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
 
 
 /* bg image home page  */

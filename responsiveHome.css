@@ -126,7 +126,7 @@
         height: auto;
         margin-top: 3px;
         margin-left: 0;
-        padding: 20px 0;
+        padding: 15px 0;
         z-index: 999;
 
     }
@@ -134,7 +134,7 @@
     .navDivLinks ol li:hover .ddOne ol li {
         display: block;
         margin: 0;
-        padding: 5px 15px;
+        padding: 5px 6px;
     }
 
     .navDivLinks ol li:hover .ddOne ol li a {
@@ -150,6 +150,77 @@
         font-family: 'Merienda', cursive;
     }
 
+
+    /* dropdown 2  */
+    .ddTwo {
+        display: none;
+    }
+
+    .ddOne ol li:hover .ddTwo {
+        display: block;
+        position: absolute;
+        width: 525px;
+        height: auto;
+        margin-top: -52px;
+        margin-left: 185px;
+        padding: 10px;
+        z-index: 999;
+        box-shadow: 0 0 2px 0 dimgray;
+    }
+
+    .dawlanceDivcategories h1 {
+        text-align: center;
+        padding: 10px 0;
+        margin: 0;
+        font-size: 2.2rem;
+        font-weight: 800;
+        color: #777;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        font-family: 'Merienda', cursive;
+        cursor: pointer;
+    }
+
+    .DawlanceOLTAG {
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+
+    .DawlanceOLTAG li {
+        padding: 0;
+        margin: 0;
+        line-height: 25px;
+    }
+
+
+    .DawlanceOLTAG .ddTwobrandCategories {
+        position: relative;
+        display: block;
+        cursor: pointer;
+        text-decoration: none;
+        color: #555;
+        font-size: 1.7rem;
+        padding: 5px;
+        text-transform: capitalize;
+        transition: all 0.3s ease-in-out;
+        /* font-family: 'Merienda', cursive; */
+        /* font-family: 'Bree Serif', serif; */
+        /* font-family: "Playfair Display", Georgia, serif; */
+        font-family: 'Alata', sans-serif;
+    }
+
+    .DawlanceOLTAG .ddTwobrandCategories:hover {
+        opacity: 0.8;
+        color: #111;
+    }
+
+
+    .ddFlexhomeAppliancediv {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
 
 
     /* bg image home page  */
