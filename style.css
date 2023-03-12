@@ -114,6 +114,7 @@
 }
 
 .searchIcondiv i {
+    position: relative;
     color: #333;
     cursor: pointer;
     font-size: 26px;
@@ -163,20 +164,26 @@
     font-family: 'Alata', sans-serif;
 }
 
-.navDivLinks ol li:hover .ddOne ol li .ddONElinks:hover {
+.navDivLinks ol li .ddOne ol li .ddONElinks:hover {
     transform: translateX(1.5px);
     letter-spacing: 1px;
 }
 
-.arrowDDup {
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.1s ease;
-    display: none;
-}
-
 
 /* dropdown 2  */
+.ddTwoTopHeading {
+    text-align: center;
+    padding: 10px 0 20px 0;
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Merienda', cursive;
+    cursor: pointer;
+}
+
 .ddTwo {
     display: none;
 }
@@ -184,12 +191,14 @@
 .ddOne ol li:hover .ddTwo {
     display: block;
     position: absolute;
-    width: 550px;
+    width: 570px;
     height: auto;
-    margin-top: -46px;
+    margin-top: -40px;
     margin-left: 185px;
-    padding: 10px;
+    padding: 25px 10px 15px 10px;
     z-index: 999;
+    background-color: darkgray;
+    border-radius: 0 0 15px 15px;
 }
 
 .dawlanceDivcategories h1 {
@@ -197,12 +206,16 @@
     padding: 10px 0;
     margin: 0;
     font-size: 2.2rem;
-    font-weight: 800;
+    font-weight: 400;
     color: #222;
     text-transform: capitalize;
     letter-spacing: 1px;
     font-family: 'Merienda', cursive;
     cursor: pointer;
+}
+
+.dawlanceDivcategories h1:hover {
+    color: #555;
 }
 
 .DawlanceOLTAG {
@@ -214,18 +227,18 @@
 .DawlanceOLTAG li {
     padding: 0;
     margin: 0;
-    line-height: 20px;
+    /* line-height: 20px; */
 }
 
 
 .DawlanceOLTAG .ddTwobrandCategories {
     position: relative;
-    display: block;
+    /* display: block; */
     cursor: pointer;
     text-decoration: none;
     color: #222;
     font-size: 1.7rem;
-    padding: 5px;
+    /* padding: 5px; */
     text-transform: capitalize;
     transition: all 0.3s ease-in-out;
     /* font-family: 'Merienda', cursive; */
@@ -244,6 +257,63 @@
     display: flex;
     justify-content: space-between;
     align-items: start;
+}
+
+
+/* dropdown 3  */
+.ddFlexKitchenAppliancediv {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+
+.ddThree {
+    display: none;
+}
+
+
+.ddOne ol li:hover .ddThree {
+    display: block;
+    position: absolute;
+    width: 570px;
+    height: auto;
+    margin-top: -52px;
+    margin-left: 185px;
+    padding: 25px 10px 15px 10px;
+    z-index: 999;
+    background-color: darkgray;
+    border-radius: 0 0 15px 15px;
+}
+
+
+/* hide add to cart hover  */
+
+
+.ddAddtocart {
+    /* display: none; */
+}
+
+/* .cartNav:hover */
+.ddAddtocart {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    width: 200px;
+    height: 55px;
+    background-color: gray;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 999;
+}
+
+.ddContentaddtoCart p {
+    padding: 10px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: 'Lato', sans-serif;
+    color: #444;
+    font-size: 1.5rem;
 }
 
 

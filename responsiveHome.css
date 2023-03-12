@@ -20,7 +20,7 @@
         opacity: 0;
         visibility: hidden;
         transform: translateX(-300%);
-        transition: all 1.5s ease;
+        transition: all 1s ease;
     }
 
     .navResicon .menuNav {
@@ -74,7 +74,7 @@
 
     .navDivLinks {
         width: 100%;
-        height: 100vh;
+        min-height: 100vh;
         position: absolute;
         top: 0;
         left: 0;
@@ -94,7 +94,7 @@
     }
 
     .activeNavbar .closeNav {
-        /* display: block; */
+        display: block;
         opacity: 1;
         visibility: visible;
         transform: translateX(0);
@@ -109,7 +109,7 @@
     .navDivLinks .navOlTag {
         display: flex;
         flex-direction: column;
-        margin: 80px 35px;
+        margin: 80px 15px;
         line-height: 35px;
     }
 
@@ -134,10 +134,10 @@
     .navDivLinks ol li:hover .ddOne ol li {
         display: block;
         margin: 0;
-        padding: 5px 6px;
+        padding: 5px 6px 5px 6px;
     }
 
-    .navDivLinks ol li:hover .ddOne ol li a {
+    .navDivLinks ol li:hover .ddOne ol li .ddONElinks {
         position: relative;
         display: block;
         cursor: pointer;
@@ -147,11 +147,39 @@
         padding: 5px;
         text-transform: capitalize;
         transition: all 0.3s ease-in-out;
-        font-family: 'Merienda', cursive;
+        /* font-family: 'Merienda', cursive; */
+        /* font-family: 'Bree Serif', serif; */
+        font-family: "Playfair Display", Georgia, serif;
+        font-family: 'Alata', sans-serif;
     }
+
+    /* .navDivLinks ol li .ddOne ol li .ddONElinks:hover {
+        transform: translateX(1.5px);
+        letter-spacing: 1px;
+    } */
 
 
     /* dropdown 2  */
+    .ddFlexhomeAppliancediv {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .ddTwoTopHeading {
+        text-align: center;
+        padding: 10px 0 20px 0;
+        margin: 0;
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: lightgray;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        font-family: 'Merienda', cursive;
+        cursor: pointer;
+    }
+
     .ddTwo {
         display: none;
     }
@@ -159,30 +187,35 @@
     .ddOne ol li:hover .ddTwo {
         display: block;
         position: absolute;
-        width: 525px;
+        width: 480px;
         height: auto;
-        margin-top: -52px;
-        margin-left: 185px;
-        padding: 10px;
+        margin-top: -42px;
+        margin-left: 230px;
+        padding: 25px 5px 15px 5px;
         z-index: 999;
-        box-shadow: 0 0 2px 0 dimgray;
+        background-color: #444;
+        border-radius: 15px 15px 15px 15px;
     }
 
     .dawlanceDivcategories h1 {
         text-align: center;
-        padding: 10px 0;
+        padding: 20px 0 0px 0;
         margin: 0;
         font-size: 2.2rem;
-        font-weight: 800;
-        color: #777;
+        font-weight: 400;
+        color: lightgray;
         text-transform: capitalize;
         letter-spacing: 1px;
         font-family: 'Merienda', cursive;
         cursor: pointer;
     }
 
+    .dawlanceDivcategories h1:hover {
+        color: #777;
+    }
+
     .DawlanceOLTAG {
-        padding: 0;
+        padding: 10px 0;
         margin: 0;
         text-align: left;
     }
@@ -190,18 +223,18 @@
     .DawlanceOLTAG li {
         padding: 0;
         margin: 0;
-        line-height: 25px;
+        /* line-height: 20px; */
     }
 
 
     .DawlanceOLTAG .ddTwobrandCategories {
         position: relative;
-        display: block;
+        /* display: block; */
         cursor: pointer;
         text-decoration: none;
-        color: #555;
+        color: #999;
         font-size: 1.7rem;
-        padding: 5px;
+        /* padding: 5px; */
         text-transform: capitalize;
         transition: all 0.3s ease-in-out;
         /* font-family: 'Merienda', cursive; */
@@ -212,15 +245,37 @@
 
     .DawlanceOLTAG .ddTwobrandCategories:hover {
         opacity: 0.8;
-        color: #111;
+        color: #888;
     }
 
 
-    .ddFlexhomeAppliancediv {
+
+    /* dropdown 3  */
+    .ddFlexKitchenAppliancediv {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: start;
     }
+
+    .ddThree {
+        display: none;
+    }
+
+
+    .ddOne ol li:hover .ddThree {
+        display: block;
+        position: absolute;
+        width: 480px;
+        height: auto;
+        margin-top: -65px;
+        margin-left: 235px;
+        padding: 25px 10px 15px 10px;
+        z-index: 999;
+        background-color: #444;
+        border-radius: 15px 15px 15px 15px;
+    }
+
 
 
     /* bg image home page  */
