@@ -244,14 +244,33 @@
                 <i
                   class="fa-solid fa-magnifying-glass"
                   title="Search Products"
+                  id="searchiconNavtop"
+                  onclick="hSf()"
                 ></i>
               </a>
+              <div class="searchHideNavDiv" id="searchHideNavDivID">
+                <div class="hideSearchBGopacitydiv">
+                  <i
+                    class="fa-solid fa-xmark closeNavHideSearch"
+                    id="closeNavHideSearch"
+                  ></i>
+                  <div class="searchNavhideinputdiv">
+                    <input
+                      type="search"
+                      name=""
+                      id=""
+                      placeholder="Search Products ..."
+                    />
+                  </div>
+                  <i class="fa-solid fa-magnifying-glass searchNavHideicon"></i>
+                </div>
+              </div>
             </li>
             <li>
               <a href="#" class="cartNav"
-                ><i class="fa-solid fa-bag-shopping" title="Add To Cart"></i
+                ><i class="fa-solid fa-bag-shopping" id="ddAddtocart"></i
               ></a>
-              <div class="ddAddtocart">
+              <div class="ddAddtocart" id="ddAddtocarthideID">
                 <div class="ddContentaddtoCart" id="contentDivAddtocart">
                   <p>No products in the cart.</p>
                 </div>
@@ -305,9 +324,20 @@
     </div> -->
 
     <!-- jquery cdn  -->
-    <script src="jquery.js"></script>
+    <script src="jqueryCDN.js"></script>
+
+    <!-- jquery work  -->
+    <script src="jqueryHome.js"></script>
 
     <!-- js home page work  -->
     <script src="homePageFuntions.js"></script>
+
+    <!-- <script>
+      $(document).ready(function () {
+        $("#searchHideNavDivID").click(function () {
+          $("#searchHideNavDivID").
+        });
+      });
+    </script> -->
   </body>
 </html>
