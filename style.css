@@ -563,7 +563,7 @@
 }
 
 .productsHomeOptionDivflex span:hover {
-    color: #444;
+    color: #555;
     background-color: whitesmoke;
 }
 
@@ -572,6 +572,11 @@
     cursor: pointer;
     color: #444;
     font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.productsHomeOptionDivflex i:hover {
+    color: #666;
 }
 
 .productHomecontentLast p {
@@ -594,4 +599,35 @@
     font-family: 'Merienda', cursive;
     margin: 0;
     padding: 8px 0;
+}
+
+.productHomehideDetailsHoverdiv a {
+    text-decoration: none;
+}
+
+.productHomehideDetailsHoverdiv button {
+    margin: 10px 0;
+    padding: 6px;
+    color: #555;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid #888;
+    border-radius: 8px;
+    /* font-family: 'Alata', sans-serif; */
+    font-family: 'Lato', sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(100%);
+    transition: all 0.3s ease;
+}
+
+.productHomehideDetailsHoverdiv button:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.productsHomePageCards:hover .productHomehideDetailsHoverdiv button {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }
