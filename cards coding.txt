@@ -1,0 +1,68 @@
+simple home page cards --**
+
+ <div class="col-lg-3">
+            <!-- card 1 -->
+
+            <div class="productsHomePageCards">
+              <div class="productHomeCardsimgDiv">
+                <img
+                  src="images/Gaba-National-Microwave-Oven img 01.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="productsHomeOptionDivflex">
+                <div class="optionProducdivs">
+                  <i class="fa-solid fa-heart" title="Add To Wishlist"></i>
+                </div>
+                <div class="optionProducdivs"><span>Order Now</span></div>
+                <div class="optionProducdivs">
+                  <i class="fa-regular fa-eye" title="View Product"></i>
+                </div>
+              </div>
+              <div class="productHomecontentLast">
+                <p>National Microwave Oven</p>
+                <h2>RS 14,900</h2>
+              </div>
+              <div class="productHomehideDetailsHoverdiv">
+                <a href="#"><button>Products Details</button></a>
+              </div>
+            </div>
+          </div>
+
+--- *** ---
+
+sales cards ---*
+
+<div class="col-lg-3">
+            <!-- card 7 -->
+
+            <div class="productsHomePageCards">
+              <div class="saleProductDivCards">
+                <p>15% OFF</p>
+              </div>
+              <div class="productHomeCardsimgDiv">
+                <img
+                  src="images/Gaba-National-Microwave-Oven img 01.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="productsHomeOptionDivflex">
+                <div class="optionProducdivs">
+                  <i class="fa-solid fa-heart" title="Add To Wishlist"></i>
+                </div>
+                <div class="optionProducdivs"><span>Order Now</span></div>
+                <div class="optionProducdivs">
+                  <i class="fa-regular fa-eye" title="View Product"></i>
+                </div>
+              </div>
+              <div class="productHomecontentLast">
+                <p>National Microwave Oven</p>
+                <h2>RS 14,900</h2>
+              </div>
+              <div class="productHomehideDetailsHoverdiv">
+                <a href="#"><button>Products Details</button></a>
+              </div>
+            </div>
+          </div>
+
+--- *** ---
