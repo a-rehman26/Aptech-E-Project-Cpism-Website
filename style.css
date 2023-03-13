@@ -497,7 +497,7 @@
 .productsTopHeading {
     position: relative;
     text-align: center;
-    padding: 30px 0;
+    padding: 10px 0;
     font-size: 3.4rem;
     font-weight: 800;
     color: #222;
@@ -514,13 +514,14 @@
     position: relative;
     border: 1px solid #ECF0F1;
     border-radius: 8px;
-    margin: 15px 0;
+    margin: 25px 0;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+    overflow: hidden;
     cursor: pointer;
 }
 
@@ -530,11 +531,17 @@
     position: relative;
     cursor: pointer;
     /* border: 1px solid #000; */
+    overflow: hidden;
 }
 
 .productHomeCardsimgDiv img {
     width: 100%;
     height: 100%;
+    transition: all 0.4s ease;
+}
+
+.productsHomePageCards:hover .productHomeCardsimgDiv img {
+    transform: scale(1.1);
 }
 
 .productsHomeOptionDivflex {
@@ -655,4 +662,66 @@
     text-align: center;
     font-weight: bold;
     font-size: 0.9em;
+}
+
+
+/* home page about us  */
+
+.aboutUShr {
+    margin: 50px 0 25px 0;
+}
+
+.aboutUStopContent {
+    text-align: center;
+}
+
+.aboutUStopContent img {
+    cursor: pointer;
+}
+
+.aboutUStopContent h4 {
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-family: 'Alata', sans-serif !important;
+    text-transform: capitalize;
+    color: #333;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0;
+    padding: 15px 0;
+    line-height: 30px;
+}
+
+.aboutUStopContent p {
+    padding: 10px 60px;
+    margin: 0;
+    line-height: 25px;
+    color: #333;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.aboutUStopContent h3 {
+    position: relative;
+    text-align: center;
+    font-size: 3.3rem;
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Playfair Display", Georgia, serif;
+    cursor: pointer;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.aboutUStopContent span {
+    padding: 10px 0;
+    margin: 0;
+    margin: 0;
+    color: #333;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
 }
