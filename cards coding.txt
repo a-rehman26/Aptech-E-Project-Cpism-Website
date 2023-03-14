@@ -66,3 +66,33 @@ sales cards ---*
           </div>
 
 --- *** ---
+
+new cards --*
+<div class="col-lg-3">
+              <!-- card 1 -->
+
+              <div class="productsHomePageCards">
+                <div class="flexiconcardsDiv">
+                  <div class="optionProducdivs">
+                    <i class="fa-solid fa-heart" title="Add To Wishlist"></i>
+                  </div>
+                  <div class="optionProducdivs">
+                    <i class="fa-solid fa-link" title="Product Details"></i>
+                  </div>
+                  <div class="optionProducdivs">
+                    <i class="fa-regular fa-eye" title="View Product"></i>
+                  </div>
+                </div>
+                <div class="productHomeCardsimgDiv">
+                  <img src="images/frige img 02.jpg" alt="" />
+                </div>
+                <div class="productHomecontentLast">
+                  <p>Dawlance Refrigerator</p>
+                  <h2>RS 68,500</h2>
+                </div>
+                <div class="productHomehideDetailsHoverdiv2">
+                  <a href="#"><button>Order Now</button></a>
+                </div>
+              </div>
+            </div>
+---***---
