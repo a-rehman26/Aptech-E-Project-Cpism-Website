@@ -459,4 +459,80 @@
     }
 
 
+
+    /* products home page  */
+
+    .productsHomePageMainDiv {
+        margin: 60px 0 0 0;
+        position: relative;
+    }
+
+    .productsTopHeading {
+        position: relative;
+        text-align: center;
+        padding: 15px 0;
+        font-size: 3.5rem;
+        font-weight: 800;
+        color: #222;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: 'Merienda', cursive;
+        cursor: pointer;
+        text-shadow: 0 1px 1px darkblue;
+    }
+
+
+    /* cards home page */
+    .productsHomePageCards {
+        position: relative;
+        border: 1px solid #888;
+        border-radius: 8px;
+        margin: 25px 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+
+
+    /* about us part  */
+    .aboutUScardsMaindiv {
+        position: relative;
+        width: 100%;
+        min-height: 25%;
+        padding: 10px 0;
+        /* background-color: gray; */
+        background: #f3f3f3 !important;
+        margin: 30px 0;
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+
+    .aboutUScardsContentDiv h4 {
+        margin: 0;
+        padding: 15px 0;
+        position: relative;
+        text-align: center;
+        font-size: 1.5rem;
+        color: #333;
+        text-transform: capitalize;
+        font-family: "Playfair Display", Georgia, serif;
+    }
+
+    .aboutUScardsContentDiv p {
+        padding: 10px 2px;
+        line-height: 32px;
+        margin: 0;
+        color: #222;
+        text-transform: capitalize;
+        font-size: 1.3rem;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+    }
 }

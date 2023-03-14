@@ -510,6 +510,13 @@
 
 
 /* cards home page */
+
+.cardsHomepageflexDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .productsHomePageCards {
     position: relative;
     border: 1px solid #ECF0F1;
@@ -735,11 +742,14 @@
 .aboutUScardsMaindiv {
     position: relative;
     width: 100%;
-    height: 250px;
+    min-height: 25%;
     padding: 10px 0;
     /* background-color: gray; */
     background: #f3f3f3 !important;
     margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
 }
 
 .aboutUScardsDiv {
