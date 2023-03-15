@@ -14,6 +14,7 @@
     height: auto;
     padding: 1px 0;
     background-color: darkgray;
+    /* background: linear-gradient(to bottom, #000000, #141e30); */
 }
 
 .navbarLogo {
@@ -607,7 +608,35 @@
 
 .productHomecontentLast h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #111;
+    text-transform: uppercase;
+    font-family: 'Merienda', cursive;
+    margin: 0;
+    padding: 10px;
+}
+
+.saleCardsContentLastDiv {
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+}
+
+.saleCardsContentLastDiv h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: red;
+    text-transform: uppercase;
+    font-family: 'Merienda', cursive;
+    margin: 0;
+    padding: 10px;
+}
+
+.saleCardsContentLastDiv h3 {
+    text-align: center;
+    font-size: 1.6rem;
     font-weight: 800;
     color: #111;
     text-transform: uppercase;
@@ -915,7 +944,7 @@
     margin: 15px 0;
     position: relative;
     width: 100%;
-    height: 530px;
+    min-height: 25%;
     padding: 10px;
     background-color: white;
     border: 1px solid whitesmoke;
@@ -984,11 +1013,12 @@
 
 /* footer email  */
 .footerEmailDiv {
-    margin: 50px 0;
+    margin: 50px 0 0 0;
     width: 100%;
-    height: 250px;
+    min-height: 25%;
     background-color: whitesmoke;
     position: relative;
+    padding: 30px 0;
 
     display: flex;
     justify-content: center;
@@ -996,44 +1026,50 @@
 }
 
 .emailFooterDiv2 {
-    width: 75%;
+    width: 100%;
     height: 75%;
-    background-color: #666;
+    background-color: white;
+    box-shadow: 0 0 10px 0 gray;
+    border-radius: 5px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
-    padding: 5px 25px;
+    padding: 5px 10px;
 }
 
 .footerContentemail h2 {
-    padding: 10px 10px;
-    line-height: 32px;
     font-size: 2.8rem;
-    font-weight: 700;
-    cursor: pointer;
-    color: #111;
-    border-radius: 10px;
-    transition: all 0.2s ease-in-out;
-    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    line-height: 33px;
+    color: #222;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    font-family: 'Merienda', cursive;
+    margin: 50px 0;
+    padding: 20px 0;
 }
 
 .emailFooterInputDiv {
     position: relative;
-    width: 85%;
-    height: 45px;
+    width: 100%;
+    height: 50px;
     cursor: pointer;
     margin: 5px 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
 }
 
 .emailFooterInputDiv input {
-    width: 100%;
+    width: 75%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     cursor: pointer;
     padding: 10px;
+    background-color: white;
     color: #111;
     font-family: 'Lato', sans-serif;
 
@@ -1048,7 +1084,7 @@
     top: 0;
     right: 0;
 
-    padding: 7.5px;
+    padding: 9px;
     font-size: 2rem;
     font-family: 'Bree Serif', serif;
     cursor: pointer;
@@ -1056,11 +1092,199 @@
     color: #111;
     border: 1px solid lightgray;
     outline: none;
-    border-radius: 6px;
+    border-radius: 5px;
     transition: all 0.2s ease-in-out;
 }
 
 .emailFooterInputDiv button:hover {
+    color: whitesmoke;
+    background-color: #333;
+}
+
+/* last footer  */
+.lastFooterDiv {
+    position: relative;
+    width: 100%;
+    min-height: 25%;
+    background: #9999;
+    padding: 30px 0;
+    overflow: hidden;
+
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.lastFooterResflexdiv {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+
+    margin: 50px 0 0 0;
+}
+
+.LastFooterBoxDiv h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #222;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    font-family: 'Merienda', cursive;
+    margin: 0;
+    padding: 25px 0 30px 0;
+}
+
+.LastFooterBoxDiv h4 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+    text-transform: capitalize;
+    font-family: 'Alata', sans-serif;
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+
+.LastFooterBoxDiv p {
+    padding: 5px 0;
+    margin: 0;
+    color: #222;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.LastFooterBoxDiv span {
+    display: block;
+    padding: 5px 0 10px 0;
+    margin: 0;
+    color: #666;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.footerdiv2iconsflexDiv {
+    display: flex;
+    align-items: center;
+}
+
+.icons-footer-divs i {
+    margin: 20px 10px 20px 0;
+    border: 1px solid #555;
+    background-color: #111;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.icons-footer-divs i:hover {
+    background-color: white;
+    color: #333;
+    border: 1px solid gray;
+}
+
+.icons-footer-divs a {
+    text-decoration: none;
+}
+
+.icons-footer-divs a:hover {
+    text-decoration: none;
+}
+
+.footerOLtag {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.footerOLtag li {
+    line-height: 33px;
+}
+
+.footerLinks {
+    color: #333;
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-size: 1.6rem;
+    font-family: 'Alata', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+}
+
+.footerLinks:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+.LastFooterBoxDiv .LastFooterBoxDivEmailP {
+    color: #222;
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: 'Alata', sans-serif;
+}
+
+.lastFooterEmailDiv {
+    width: 100%;
+    height: 45px;
+    position: relative;
+    border: 1px solid #777;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.lastFooterEmailDiv input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: #222;
+    font-family: 'Lato', sans-serif;
+    padding: 6px;
+
+    outline: none;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.LastFooterBoxDiv button {
+    border: none;
+    outline: none;
+    border-radius: 25px;
+
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+    padding: 8px;
+    margin: 15px 0;
+    font-size: 2rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+    font-family: 'Lato', 'sans-serif';
+    background-color: white;
+    color: #111;
+    border: 1px solid lightgray;
+    transition: all 0.2s ease-in-out;
+}
+
+.LastFooterBoxDiv button:hover {
     color: whitesmoke;
     background-color: #333;
 }
