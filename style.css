@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --background: linear-gradient(to bottom, #000000, #0d1a1e);
+    /* --backgroundClr: linear-gradient(to bottom, #0d1a1e, #000000); */
+    --backgroundClr: #0d1a1e;
+}
+
+
 /* navbar CSS */
 
 .navbarMaindiv {
@@ -13,8 +20,10 @@
     width: 100%;
     height: auto;
     padding: 1px 0;
-    background-color: darkgray;
+    /* background-color: #1E2730; */
     /* background: linear-gradient(to bottom, #000000, #141e30); */
+    background: var(--background);
+
 }
 
 .navbarLogo {
@@ -57,7 +66,7 @@
     display: block;
     cursor: pointer;
     text-decoration: none;
-    color: #111;
+    color: whitesmoke;
     font-size: 1.7rem;
     padding: 5px;
     text-transform: capitalize;
@@ -116,7 +125,7 @@
 
 .searchIcondiv i {
     position: relative;
-    color: #333;
+    color: whitesmoke;
     cursor: pointer;
     font-size: 26px;
     margin: 0 15px;
@@ -154,7 +163,7 @@
     display: block;
     cursor: pointer;
     text-decoration: none;
-    color: #111;
+    color: whitesmoke;
     font-size: 1.7rem;
     padding: 5px;
     text-transform: capitalize;
@@ -178,7 +187,7 @@
     margin: 0;
     font-size: 2.5rem;
     font-weight: 700;
-    color: #333;
+    color: lightgray;
     text-transform: capitalize;
     letter-spacing: 1px;
     font-family: 'Merienda', cursive;
@@ -194,11 +203,11 @@
     position: absolute;
     width: 570px;
     height: auto;
-    margin-top: -40px;
+    margin-top: -37px;
     margin-left: 185px;
     padding: 25px 10px 15px 10px;
     z-index: 999;
-    background-color: darkgray;
+    background: var(--backgroundClr);
     border-radius: 0 0 15px 15px;
 }
 
@@ -208,7 +217,7 @@
     margin: 0;
     font-size: 2.2rem;
     font-weight: 400;
-    color: #222;
+    color: lightgray;
     text-transform: capitalize;
     letter-spacing: 1px;
     font-family: 'Merienda', cursive;
@@ -216,7 +225,7 @@
 }
 
 .dawlanceDivcategories h1:hover {
-    color: #555;
+    color: #999;
 }
 
 .DawlanceOLTAG {
@@ -237,7 +246,7 @@
     /* display: block; */
     cursor: pointer;
     text-decoration: none;
-    color: #222;
+    color: lightgray;
     font-size: 1.7rem;
     /* padding: 5px; */
     text-transform: capitalize;
@@ -250,7 +259,7 @@
 
 .DawlanceOLTAG .ddTwobrandCategories:hover {
     opacity: 0.8;
-    color: #111;
+    color: #999;
 }
 
 
@@ -283,7 +292,7 @@
     margin-left: 185px;
     padding: 25px 10px 15px 10px;
     z-index: 999;
-    background-color: darkgray;
+    background: var(--backgroundClr);
     border-radius: 0 0 15px 15px;
 }
 
@@ -302,18 +311,18 @@
     left: 70px;
     width: 210px;
     height: 55px;
-    background-color: gray;
+    background-color: var(--background);
     border-radius: 10px 10px 10px 10px;
     z-index: 999;
 }
 
 .ddContentaddtoCart p {
-    padding: 10px;
+    padding: 12px;
     font-weight: 600;
     letter-spacing: 0.5px;
     font-family: 'Lato', sans-serif;
-    color: #444;
-    font-size: 1.5rem;
+    color: #999;
+    font-size: 1.7rem;
 }
 
 .searchIcondiv .cartNavicon::after {
@@ -393,7 +402,7 @@
     width: 100%;
     height: 100vh;
     position: relative;
-    background: rgba(0, 0, 0, 0.3) url(images/home\ bg\ image\ 01.jpg);
+    background: rgba(0, 0, 0, 0.7) url(images/banner\ img\ 09.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -409,11 +418,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: start;
+
+    /* display: none; */
 }
 
 .homeContentDiv h4 {
     font-size: 3.2rem;
-    color: #222;
+    color: lightgray;
     text-transform: capitalize;
     letter-spacing: 1px;
     font-family: 'Bree Serif', serif;
@@ -428,7 +439,7 @@
     margin: 0;
     font-size: 3.5rem;
     font-weight: 800;
-    color: #222;
+    color: whitesmoke;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: 'Merienda', cursive;
@@ -437,7 +448,7 @@
 
 .homeContentDiv p {
     width: 40%;
-    color: #333;
+    color: lightgray;
     text-transform: capitalize;
     font-size: 1.3rem;
     padding: 10px 0;
@@ -448,24 +459,24 @@
 }
 
 .homeContentDiv button {
-    padding: 10px 14px;
+    padding: 12px 16px;
     margin: 10px 0;
     cursor: pointer;
-    border: 1px solid #333;
-    background-color: #555;
+    border: 1px solid #222;
+    background-color: transparent;
     border-radius: 10px;
-    color: #222;
-    font-size: 1.5rem;
+    color: whitesmoke;
+    font-size: 1.6rem;
     letter-spacing: 0.4px;
     font-family: 'Lato', sans-serif;
-    box-shadow: inset 0 0 0 0 #333;
+    box-shadow: inset 0 0 0 0 darkslategray;
     transition: all 0.5s ease-in-out;
 }
 
 .homeContentDiv button:hover {
-    box-shadow: inset 0 0 300px 0 #333;
-    color: #999;
-    border: 1px solid #777;
+    box-shadow: inset 0 0 300px 0 darkslategray;
+    color: white;
+    border: 1px solid #333;
 }
 
 
@@ -862,7 +873,13 @@
     min-height: 25%;
     padding: 10px 0;
     /* background-color: gray; */
-    background: #f3f3f3 !important;
+    /* background: #f3f3f3 !important; */
+    background: rgba(0, 0, 0, 0.1111111) url(images/banner\ img\ 05.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
     margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
@@ -870,6 +887,7 @@
 }
 
 .aboutUScardsDiv {
+    z-index: 999;
     margin: 10px 0;
     overflow: hidden;
     position: relative;
@@ -888,6 +906,7 @@
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     margin: 15px 0;
+    filter: invert(1);
 }
 
 .aboutUScardsimgDiv img:hover {
@@ -901,6 +920,7 @@
     text-align: center;
     font-size: 1.8rem;
     color: #333;
+    color: lightgray;
     text-transform: capitalize;
     font-family: "Playfair Display", Georgia, serif;
 }
@@ -909,6 +929,7 @@
     padding: 10px 38px;
     margin: 0;
     color: #333;
+    color: lightgray;
     text-transform: capitalize;
     font-size: 1.4rem;
     font-family: 'Lato', sans-serif;
@@ -947,8 +968,8 @@
     min-height: 25%;
     padding: 10px;
     background-color: white;
-    border: 1px solid whitesmoke;
-    box-shadow: 0 0 14px 0 gray;
+    border: 1px solid lightgray;
+    box-shadow: 0 0 16px 0 gray;
     border-radius: 6px;
     overflow: hidden;
 }
