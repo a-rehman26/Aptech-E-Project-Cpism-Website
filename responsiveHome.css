@@ -26,6 +26,8 @@
     .navResicon .menuNav {
         display: block;
         font-size: 35px;
+        color: lightgray;
+        margin: 10px 0 0 0;
     }
 
     .navbarLogo img {
@@ -66,7 +68,7 @@
     }
 
     .searchIcondiv i {
-        color: #333;
+        color: lightgray;
         cursor: pointer;
         font-size: 25px;
         margin: 10px 15px 0 15px;
@@ -381,12 +383,12 @@
     /* bg image home page  */
     #homeBGimage {
         width: 100%;
-        height: 95vh;
+        height: 100vh;
         position: relative;
-        background: rgba(0, 0, 0, 0.3) url(images/home\ bg\ image\ 01.jpg);
+        background: rgba(0, 0, 0, 0.7) url(images/banner\ img\ 09.avif);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
+        background-size: cover;
         background-blend-mode: darken;
     }
 
@@ -403,7 +405,7 @@
 
     .homeContentDiv h4 {
         font-size: 3.2rem;
-        color: #222;
+        color: lightgray;
         text-transform: capitalize;
         letter-spacing: 1px;
         font-family: 'Bree Serif', serif;
@@ -418,7 +420,7 @@
         margin: 0;
         font-size: 3.5rem;
         font-weight: 800;
-        color: #222;
+        color: lightgray;
         text-transform: uppercase;
         letter-spacing: 1px;
         font-family: 'Merienda', cursive;
@@ -427,35 +429,35 @@
 
     .homeContentDiv p {
         width: 50%;
-        color: #333;
+        color: lightgray;
         text-transform: capitalize;
         font-size: 1.4rem;
         padding: 10px 0;
         margin: 0;
-        line-height: 22px;
+        line-height: 28px;
         /* font-family: 'Lato', sans-serif; */
         font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     }
 
     .homeContentDiv button {
-        padding: 10px 15px;
+        padding: 12px 16px;
         margin: 10px 0;
         cursor: pointer;
-        border: 1px solid #333;
-        background-color: #555;
+        border: 1px solid #222;
+        background-color: transparent;
         border-radius: 10px;
-        color: #222;
+        color: whitesmoke;
         font-size: 1.6rem;
         letter-spacing: 0.4px;
         font-family: 'Lato', sans-serif;
-        box-shadow: inset 0 0 0 0 #333;
+        box-shadow: inset 0 0 0 0 darkslategray;
         transition: all 0.5s ease-in-out;
     }
 
     .homeContentDiv button:hover {
-        box-shadow: inset 0 0 300px 0 #333;
-        color: #999;
-        border: 1px solid #777;
+        box-shadow: inset 0 0 300px 0 darkslategray;
+        color: white;
+        border: 1px solid #333;
     }
 
 
@@ -595,7 +597,13 @@
         min-height: 25%;
         padding: 10px 0;
         /* background-color: gray; */
-        background: #f3f3f3 !important;
+        /* background: #f3f3f3 !important; */
+        background: rgba(0, 0, 0, 0.1111111) url(images/banner\ img\ 05.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: darken;
+        background-attachment: fixed;
         margin: 30px 0;
         display: flex;
         flex-wrap: wrap;
@@ -608,7 +616,7 @@
         position: relative;
         text-align: center;
         font-size: 1.5rem;
-        color: #333;
+        color: whitesmoke;
         text-transform: capitalize;
         font-family: "Playfair Display", Georgia, serif;
     }
@@ -617,7 +625,7 @@
         padding: 10px 2px;
         line-height: 32px;
         margin: 0;
-        color: #222;
+        color: whitesmoke;
         text-transform: capitalize;
         font-size: 1.3rem;
         font-family: 'Lato', sans-serif;
@@ -647,33 +655,34 @@
     }
 
     .emailFooterDiv2 {
-        width: 75%;
-        height: 75%;
+        width: 100%;
+        height: 80%;
         background-color: white;
         box-shadow: 0 0 10px 0 gray;
         border-radius: 5px;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
 
-        padding: 5px 25px;
+        padding: 45px 70px;
     }
 
     .footerContentemail h2 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         font-weight: 800;
-        line-height: 33px;
+        line-height: 22px;
         color: #222;
         text-transform: capitalize;
         letter-spacing: 0.5px;
         font-family: 'Merienda', cursive;
-        margin: 50px 0;
-        padding: 20px 0;
+        margin: 5px 0;
+        padding: 10px 0;
     }
 
     .emailFooterInputDiv {
         position: relative;
-        width: 100%;
+        width: 325px;
         height: 50px;
         cursor: pointer;
         margin: 5px 10px;

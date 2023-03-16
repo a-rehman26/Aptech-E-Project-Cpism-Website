@@ -5,7 +5,8 @@
 }
 
 :root {
-    --background: linear-gradient(to bottom, #000000, #0d1a1e);
+    /* --background: linear-gradient(to bottom, #000000, #0d1a1e); */
+    --background: #0d1a1e;
     /* --backgroundClr: linear-gradient(to bottom, #0d1a1e, #000000); */
     --backgroundClr: #0d1a1e;
 }
@@ -32,6 +33,7 @@
     position: relative;
     cursor: pointer;
     border-radius: 20%;
+    margin: 10px 0 0 0;
 }
 
 .navbarLogo img {
@@ -95,7 +97,7 @@
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #555;
+    background-color: #999;
     transform: scale(0);
     transform-origin: left;
     transition: all 0.5s ease-in-out;
@@ -183,9 +185,10 @@
 /* dropdown 2  */
 .ddTwoTopHeading {
     text-align: center;
-    padding: 10px 0 20px 0;
+    text-shadow: 0 1px 1px darkslategrey;
+    padding: 10px 0 30px 0;
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-weight: 700;
     color: lightgray;
     text-transform: capitalize;
@@ -1122,6 +1125,18 @@
     background-color: #333;
 }
 
+.errorFooterEmailP {
+    color: red;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.erroFrmEmailP {
+    color: red;
+    padding: 2px 2px;
+    font-weight: bold;
+}
+
 /* last footer  */
 .lastFooterDiv {
     position: relative;
@@ -1267,6 +1282,7 @@
     border: 1px solid #777;
     border-radius: 25px;
     cursor: pointer;
+    margin: 10px 0;
 }
 
 .lastFooterEmailDiv input {
@@ -1294,7 +1310,7 @@
     letter-spacing: 0.6px;
     text-transform: capitalize;
     padding: 8px;
-    margin: 15px 0;
+    margin: 5px 0;
     font-size: 2rem;
     cursor: pointer;
     font-size: 1.7rem;

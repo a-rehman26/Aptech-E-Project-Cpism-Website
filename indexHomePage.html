@@ -735,23 +735,32 @@
       <h1 class="contactUStopHeading">GET IN TOUCH WITH US</h1>
       <div class="contactUSdiv">
         <h2 class="contactUStopHeading2">Send a message</h2>
-        <form class="homePageFrm">
+        <form class="homePageFrm" name="FrmHomePage" onsubmit="return frmF()">
           <div class="contactDivflexUserDivs">
             <div class="col-lg-6">
-              <div class="userDiv form-control">
-                <input type="text" class="form-control" name="" id="" placeholder="Enter your name" />
+              <div class="userDiv form-control" id="inputsDivBrdClr1">
+                <input type="text" class="form-control" name="frmUserNameNM" id="frmUserNameID" placeholder="Enter your name" autocomplete="on" />
+              </div>
+              <div class="erroFrmEmailP" id="ErrorFrmp1">
+                <p></p>
               </div>
             </div>
             <div class="col-lg-6">
-              <div class="userDiv form-control">
-                <input type="email" class="form-control" name="" id="" placeholder="Enter your email" />
+              <div class="userDiv form-control" id="inputsDivBrdClr2">
+                <input type="email" class="form-control" name="frmUserEmailNM" id="frmUserEmailID" placeholder="Enter your email" autocomplete="on" />
+              </div>
+              <div class="erroFrmEmailP" id="ErrorFrmp2">
+                <p></p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-12">
-            <div class="userDiv form-control">
-              <input type="text" class="form-control" name="" id="" placeholder="Subject" />
+            <div class="userDiv form-control" id="inputsDivBrdClr3">
+              <input type="text" class="form-control" name="frmUserSubjectNM" id="frmUserSubjectID" placeholder="Subject" autocomplete="on" />
+            </div>
+            <div class="erroFrmEmailP" id="ErrorFrmp3">
+              <p></p>
             </div>
           </div>
 
@@ -760,7 +769,7 @@
               placeholder="Your message"></textarea>
           </div>
 
-          <button class="homePageFrmBtn">Send Message</button>
+          <button class="homePageFrmBtn"  id="frmBtn">Send Message</button>
         </form>
       </div>
     </div>
@@ -780,8 +789,13 @@
             </div>
             <div class="col-sm-6">
               <div class="emailFooterInputDiv">
-                <input type="email" name="" id="" placeholder="Enter your email" />
-                <button>Subscribe</button>
+                <form>
+                  <input type="email" name="" id="errorFooterEmailinput" placeholder="Enter your email" autocomplete="on" />
+                  <button onclick="return emailFooterBtnF()">Subscribe</button>
+                </form>
+              </div>
+              <div class="errorFooterEmailP" id="errorFooterEmailP">
+                <p></p>
               </div>
             </div>
           </div>
