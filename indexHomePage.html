@@ -46,10 +46,10 @@
 
     <div class="navDivLinks">
       <ol class="navOlTag">
-        <li><a href="#" class="navlinks">Home</a></li>
-        <li><a href="#" class="navlinks">Products</a></li>
+        <li><a href="#" class="navlinks navLinksActive">Home</a></li>
+        <li><a href="#" class="navlinks navLinksActiveActive">Products</a></li>
         <li>
-          <a href="#" class="navlinks">Categories <i class="fa-solid fa-caret-down arrowDDdown"></i>
+          <a href="#" class="navlinks navLinksActiveActive">Categories <i class="fa-solid fa-caret-down arrowDDdown"></i>
           </a>
           <div class="ddOne">
             <ol class="ddOLtag">
@@ -188,8 +188,8 @@
             </ol>
           </div>
         </li>
-        <li><a href="#" class="navlinks">Our Story</a></li>
-        <li><a href="#" class="navlinks">Contact US</a></li>
+        <li><a href="#" class="navlinks navLinksActiveActive">Our Story</a></li>
+        <li><a href="#" class="navlinks navLinksActiveActive">Contact US</a></li>
       </ol>
     </div>
 
@@ -739,7 +739,7 @@
           <div class="contactDivflexUserDivs">
             <div class="col-lg-6">
               <div class="userDiv form-control" id="inputsDivBrdClr1">
-                <input type="text" class="form-control" name="frmUserNameNM" id="frmUserNameID" placeholder="Enter your name" autocomplete="on" />
+                <input type="text" class="form-control" name="frmUserNameNM" id="frmUserNameID" pattern="[a-zA-Z][a-zA-Z ]{2,}" placeholder="Enter your name" autocomplete="on" />
               </div>
               <div class="erroFrmEmailP" id="ErrorFrmp1">
                 <p></p>
@@ -757,7 +757,7 @@
 
           <div class="col-lg-12">
             <div class="userDiv form-control" id="inputsDivBrdClr3">
-              <input type="text" class="form-control" name="frmUserSubjectNM" id="frmUserSubjectID" placeholder="Subject" autocomplete="on" />
+              <input type="text" class="form-control" name="frmUserSubjectNM" id="frmUserSubjectID" pattern="[a-zA-Z][a-zA-Z ]{2,}" placeholder="Subject" autocomplete="on" />
             </div>
             <div class="erroFrmEmailP" id="ErrorFrmp3">
               <p></p>
