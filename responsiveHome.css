@@ -483,6 +483,13 @@
         text-shadow: 0 1px 1px darkblue;
     }
 
+    /* cards home page */
+
+    .cardsHomepageflexDiv {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
     /* cards home page */
     .productsHomePageCards {

@@ -499,7 +499,7 @@ function items02() {
             "images/home-shop-400-1200w-multilevel-heater-adjustable-room img 01.jpg";
         document.getElementById("PName02").innerHTML = "Room Heater";
         document.getElementById("PBrand02").innerHTML = "Samsung";
-        document.getElementById("Pprice02").innerHTML = "RS 155,000";
+        document.getElementById("Pprice02").innerHTML = "RS 1,699";
         document.getElementById("PDes02").innerHTML =
             "<b> Colour </b> Black <br> <b> Main Material </b> Plastic <br> <b> Shipping Weight (kg) </b> 5Kg  ";
     }
