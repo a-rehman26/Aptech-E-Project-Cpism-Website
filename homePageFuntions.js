@@ -515,3 +515,21 @@ function items02() {
     }
 
 }
+
+// ac changes deatling images
+
+function change1AC() {
+    document.getElementById("imageDetailing1").src = "images/samsung images AC invertor for detailing img 005.avif";
+}
+
+function change2AC() {
+    document.getElementById("imageDetailing1").src = "images/samsung images AC invertor for detailing img 003.avif";
+}
+
+function change3AC() {
+    document.getElementById("imageDetailing1").src = "images/samsung images AC invertor for detailing img 004.avif";
+}
+
+function change4AC() {
+    document.getElementById("imageDetailing1").src = "images/samsung images AC invertor for detailing img 002.avif";
+}

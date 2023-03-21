@@ -1463,3 +1463,223 @@
     font-family: 'Alata', sans-serif;
     font-size: 1.5rem;
 }
+
+
+
+/* air conditioners css part products  */
+#airConditionerBGimage {
+    width: 100%;
+    height: 35vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.7) url(images/air\ Conditioner\ bg\ image\ 01\ banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.airConditionerContentDiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.airConditionerContentDiv h4 {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: lightgray;
+    text-transform: uppercase;
+    font-family: 'Merienda', cursive;
+    cursor: pointer;
+}
+
+
+.airConditionerTopAnchor span {
+    font-size: 1.8rem;
+    padding: 0 6px;
+    color: #999;
+}
+
+.airConditionerTopAnchor a {
+    padding: 0;
+    margin: 5px 0;
+    color: #999;
+    font-size: 1.6rem;
+    font-family: 'Alata', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+}
+
+.airConditionerTopAnchor .airConditionerTopAnchorHome {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.airConditionerTopAnchor .airConditionerTopAnchorHome:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.airConditionerTopAnchor .airConditionerTopAnchorProductPageName {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.airConditionerTopAnchor .airConditionerTopAnchorProductPageName:hover {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    color: #888;
+    cursor: text;
+}
+
+/* boxes div detaling  */
+
+.deatlingFlexDivMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagesDetailingBoxDiv {
+    position: relative;
+    overflow: hidden;
+    margin: 50px 0;
+    padding: 0;
+}
+
+.images1DetalingDiv {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    cursor: zoom-in;
+    border: 1px solid #999;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+.images1DetalingDiv img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.images1DetalingDiv:hover img {
+    transform: scale(1.2);
+}
+
+.images234DetalingDiv {
+    width: 500px;
+    position: relative;
+    display: flex;
+}
+
+.images234DetalingDiv img {
+    width: 125px;
+    height: 125px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
+
+.imagesDetailingBoxDiv h2 {
+    font-size: 2.2rem;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    font-weight: 800;
+    color: #333;
+    text-transform: uppercase;
+    font-family: 'Merienda', cursive;
+    cursor: pointer;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.iconsDetailingDiv {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.iconsDetailingDiv li {
+    list-style-type: none;
+    margin: 0 4px;
+    padding: 0;
+    font-family: 'Alata', sans-serif;
+    position: relative;
+}
+
+.iconsDetailingDiv i {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.iconsDetailingDiv .productDeatilingHeartUNFILL {
+    position: relative;
+}
+
+.iconsDetailingDiv .productDeatilingHeartFILL {
+    position: absolute;
+    left: -28px;
+    top: -11px;
+    display: none;
+}
+
+.iconsDetailingDiv:hover .productDeatilingHeartFILL {
+    display: block;
+    color: green;
+}
+
+.imagesDetailingBoxDiv h4 {
+    font-size: 2rem;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    color: #333;
+    text-transform: uppercase;
+    font-family: 'Merienda', cursive;
+    cursor: pointer;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.imagesDetailingBoxDiv span {
+    font-family: "Archivo Narrow";
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.imagesDetailingBoxDiv a {
+    margin: 0;
+    color: #222;
+    font-size: 1.8rem;
+    font-family: 'Alata', sans-serif;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    text-decoration: none;
+    padding: 0 6px;
+}
+
+.imagesDetailingBoxDiv a:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
+.imagesDetailingBoxDiv .DetalingLIstLITAG {
+    padding: 10px 0;
+    margin: 0;
+    color: #222;
+    font-size: 1.8rem;
+    font-family: 'Alata', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+    list-style-type: square;
+}
