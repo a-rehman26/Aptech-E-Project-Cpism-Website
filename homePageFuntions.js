@@ -533,3 +533,74 @@ function change3AC() {
 function change4AC() {
     document.getElementById("imageDetailing1").src = "images/samsung images AC invertor for detailing img 002.avif";
 }
+
+// fridge 
+
+function change1Fridge() {
+    document.getElementById("imageDetailing1").src = "images/samsung product details img 002.avif";
+}
+
+function change2Fridge() {
+    document.getElementById("imageDetailing1").src = "images/samsung product details img 003.avif";
+}
+
+function change3Fridge() {
+    document.getElementById("imageDetailing1").src = "images/samsung product details img 004.avif";
+}
+
+function change4Fridge() {
+    document.getElementById("imageDetailing1").src = "images/samsung product details img 005.avif";
+}
+
+// washing machine
+
+function change1WashingM() {
+    document.getElementById("imageDetailing1").src = "images/samsung washing machine product details image 002.avif";
+}
+
+function change2WashingM() {
+    document.getElementById("imageDetailing1").src = "images/samsung washing machine product details image 003.avif";
+}
+
+function change3WashingM() {
+    document.getElementById("imageDetailing1").src = "images/samsung washing machine product details image 004.avif";
+}
+
+function change4WashingM() {
+    document.getElementById("imageDetailing1").src = "images/samsung washing machine product details image 005.avif";
+}
+
+// led tv
+
+function change1WashinLEDtv() {
+    document.getElementById("imageDetailing1").src = "images/samsung led tv product page img 003.png";
+}
+
+function change2WashinLEDtv() {
+    document.getElementById("imageDetailing1").src = "images/samsung led tv product page img 005.png";
+}
+
+function change3WashinLEDtv() {
+    document.getElementById("imageDetailing1").src = "images/samsung led tv product page img 002.avif";
+}
+
+function change4WashinLEDtv() {
+    document.getElementById("imageDetailing1").src = "images/samsung led tv product page img 004.png";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
