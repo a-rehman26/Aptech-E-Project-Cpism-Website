@@ -588,11 +588,78 @@ function change4WashinLEDtv() {
     document.getElementById("imageDetailing1").src = "images/samsung led tv product page img 004.png";
 }
 
+// slice toaster
+
+function change1WashinsliceT() {
+    document.getElementById("imageDetailing1").src = "images/jackpot product details image 002.jpg";
+}
+
+function change2WashinsliceT() {
+    document.getElementById("imageDetailing1").src = "images/jackpot product details image 003.jpg";
+}
+
+function change3WashinsliceT() {
+    document.getElementById("imageDetailing1").src = "images/jackpot product details image 004.jpg";
+}
+
+function change4WashinsliceT() {
+    document.getElementById("imageDetailing1").src = "images/jackpot product details image 0001.jpg";
+}
+
+// juicer blender
+
+function change1WashinBlender() {
+    document.getElementById("imageDetailing1").src = "images/jackpot blender product page image 002.jpg";
+}
+
+function change2WashinBlender() {
+    document.getElementById("imageDetailing1").src = "images/jackpot blender product page image 003.jpg";
+}
+
+function change3WashinBlender() {
+    document.getElementById("imageDetailing1").src = "images/jackpot blender product page image 004.jpg";
+}
+
+function change4WashinBlender() {
+    document.getElementById("imageDetailing1").src = "images/jackpot blender product page image 005.jpg";
+}
+
+// kettle
+
+function change1productKettle() {
+    document.getElementById("imageDetailing1").src = "images/jackpot product page kettle image 002.png";
+}
+
+function change2productKettle() {
+    document.getElementById("imageDetailing1").src = "images/jackpot product page kettle image 003.png";
+}
+
+function change3productKettle() {
+    document.getElementById("imageDetailing1").src = "images/jackpot product page kettle image 004.png";
+}
+
+function change4productKettle() {
+    document.getElementById("imageDetailing1").src = "images/jackpot product page kettle image 005.png";
+}
 
 
+// food procesor
 
+function change1productFoodProcesor() {
+    document.getElementById("imageDetailing1").src = "images/jackpot food procesor image 002 for product page.jpg";
+}
 
+function change2productFoodProcesor() {
+    document.getElementById("imageDetailing1").src = "images/jackpot food procesor image 003 for product page.jpg";
+}
 
+function change3productFoodProcesor() {
+    document.getElementById("imageDetailing1").src = "images/jackpot food procesor image 004 for product page.jpg";
+}
+
+function change4productFoodProcesor() {
+    document.getElementById("imageDetailing1").src = "images/jackpot food procesor image 005 for product page.jpg";
+}
 
 
 
