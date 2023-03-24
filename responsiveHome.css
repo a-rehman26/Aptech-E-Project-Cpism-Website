@@ -374,9 +374,9 @@
         font-size: 40px;
         cursor: pointer;
         position: absolute;
-        top: 170px;
-        left: -250px;
-        /* margin: 420px 195px; */
+        top: 25px;
+        left: 35px;
+        margin: 0;
     }
 
 
@@ -395,7 +395,7 @@
 
     .homeContentDiv {
         width: 100%;
-        height: 45vh;
+        height: 80vh;
         position: relative;
         display: flex;
         flex-direction: column;
