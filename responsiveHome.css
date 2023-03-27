@@ -44,7 +44,7 @@
         cursor: pointer;
         text-decoration: none;
         color: lightgray;
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         padding: 5px;
         text-transform: capitalize;
         transition: all 0.3s ease-in-out;
@@ -343,7 +343,7 @@
 
     .searchNavhideinputdiv {
         position: relative;
-        width: 350px;
+        width: 340px;
         height: 45px;
         border: 1px solid #999;
         border-radius: 25px;
@@ -934,7 +934,7 @@
 
     .searchNavhideinputdiv {
         position: relative;
-        width: 280px;
+        width: 260px;
         height: 48px;
         border: 1px solid #999;
         border-radius: 25px;
@@ -1352,7 +1352,7 @@
 
 /* small devices 422px */
 
-@media (max-width: 422px) {
+@media (max-width: 425px) {
 
     html {
         overflow-x: hidden;
@@ -1361,6 +1361,171 @@
 
     body {
         overflow-x: hidden;
+    }
+
+
+    .navResicon .menuNav {
+        display: block;
+        font-size: 27px;
+        color: lightgray;
+        margin: 13px 0 0 0;
+    }
+
+    .navbarLogo img {
+        width: 90px;
+        height: 65px;
+        border-radius: 20%;
+        margin: 0 0 1px 0;
+    }
+
+    .navDivLinks ol li a {
+        position: relative;
+        display: block;
+        cursor: pointer;
+        text-decoration: none;
+        color: lightgray;
+        font-size: 1.3rem;
+        padding: 5px;
+        text-transform: capitalize;
+        transition: all 0.3s ease-in-out;
+        font-family: 'Merienda', cursive;
+    }
+
+
+    .searchIcondiv i {
+        color: lightgray;
+        cursor: pointer;
+        font-size: 24px;
+        margin: 12px 8px 0 15px;
+    }
+
+    .activeNavbar .closeNav {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+        z-index: 999;
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        color: lightgray;
+        font-size: 35px;
+    }
+
+    /* dropdown 2  */
+    .ddFlexhomeAppliancediv {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .ddTwoTopHeading {
+        text-align: center;
+        padding: 10px 0 20px 0;
+        margin: 0;
+        font-size: 2rem;
+        font-weight: 700;
+        color: lightgray;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        font-family: 'Merienda', cursive;
+        cursor: pointer;
+    }
+
+    .ddTwo {
+        display: none;
+    }
+
+    .ddOne ol li:hover .ddTwo {
+        display: block;
+        position: relative;
+        width: 270px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 15px;
+        padding: 25px 5px 25px 5px;
+        z-index: 999;
+        background-color: #444;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .dawlanceDivcategories h1 {
+        text-align: center;
+        padding: 20px 0 0px 0;
+        margin: 0;
+        font-size: 2rem;
+        font-weight: 400;
+        color: lightgray;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        font-family: 'Merienda', cursive;
+        cursor: pointer;
+    }
+
+    /* dropdown 3  */
+    .ddFlexKitchenAppliancediv {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .ddThree {
+        display: none;
+    }
+
+
+    .ddOne ol li:hover .ddThree {
+        display: block;
+        position: relative;
+        width: 270px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 15px;
+        padding: 25px 10px 25px 10px;
+        z-index: 999;
+        background-color: #444;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    /* hide add to cart hover  */
+
+    .ddAddtocart {
+        display: none;
+    }
+
+    /* .cartNav:hover  */
+    .ddAddtocart {
+        /* display: block; */
+        position: absolute;
+        top: 43px;
+        left: 70px;
+        width: 100px;
+        height: 78px;
+        background-color: gray;
+        border-radius: 10px 10px 10px 10px;
+        z-index: 999;
+    }
+
+    .ddContentaddtoCart p {
+        padding: 12px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-family: 'Lato', sans-serif;
+        color: #444;
+        font-size: 1.5rem;
+    }
+
+
+    .searchNavhideinputdiv {
+        position: relative;
+        width: 225px;
+        height: 45px;
+        border: 1px solid #999;
+        border-radius: 25px;
+        z-index: 999;
+        cursor: pointer;
     }
 
     /* footer email  */
