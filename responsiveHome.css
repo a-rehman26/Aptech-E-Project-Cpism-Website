@@ -776,6 +776,40 @@
         cursor: pointer;
     }
 
+    #airConditionerBGimage {
+        width: 100%;
+        height: 200px;
+        position: relative;
+        background: rgba(0, 0, 0, 0.7) url(images/air\ Conditioner\ bg\ image\ 01\ banner.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+
+    /* top heading  */
+    .airConditionerContentDiv h4 {
+        text-align: center;
+        padding: 30px 0 20px 0;
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: lightgray;
+        text-transform: uppercase;
+        font-family: 'Merienda', cursive;
+        cursor: pointer;
+    }
+
+    .airConditionerTopAnchor a {
+        padding: 0;
+        margin: 5px 0;
+        color: #999;
+        font-size: 1.6rem;
+        font-family: 'Alata', sans-serif;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+        text-decoration: none;
+    }
+
 
 }
 
@@ -1345,9 +1379,133 @@
         background-blend-mode: darken;
     }
 
+    /* product detailing css start responsive here  */
+
+    .imagesDetailingBoxDiv {
+        position: relative;
+        overflow: hidden;
+        margin: 50px 0;
+        padding: 0;
+        width: 530px;
+    }
+
+    #airConditionerBGimage {
+        width: 100%;
+        height: 175px;
+        position: relative;
+        background: rgba(0, 0, 0, 0.7) url(images/air\ Conditioner\ bg\ image\ 01\ banner.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+
+    /* top heading  */
+    .airConditionerContentDiv h4 {
+        text-align: center;
+        padding: 38px 0 20px 0;
+        font-size: 2.1rem;
+        font-weight: 800;
+        color: lightgray;
+        text-transform: uppercase;
+        font-family: 'Merienda', cursive;
+        cursor: pointer;
+    }
+
+    .airConditionerTopAnchor a {
+        padding: 0;
+        margin: 5px 0;
+        color: #999;
+        font-size: 1.4rem;
+        font-family: 'Alata', sans-serif;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+        text-decoration: none;
+    }
+
 
 }
 
+
+/* small devices 422px */
+
+@media (max-width: 555px) {
+
+    html {
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .imagesDetailingBoxDiv {
+        position: relative;
+        overflow: hidden;
+        margin: 50px 0;
+        padding: 0;
+        width: 340px;
+    }
+
+    .images1DetalingDiv {
+        position: relative;
+        width: 420px;
+        height: 250px;
+        cursor: zoom-in;
+        border: 1px solid #999;
+        transition: all 0.5s ease-in-out;
+        overflow: hidden;
+    }
+
+    .images1DetalingDiv img {
+        width: 100%;
+        height: 100%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .images234DetalingDiv img {
+        width: 85px;
+        height: 115px;
+        cursor: pointer;
+        border: 1px solid lightgray;
+    }
+
+    #airConditionerBGimage {
+        width: 100%;
+        height: 180px;
+        position: relative;
+        background: rgba(0, 0, 0, 0.7) url(images/air\ Conditioner\ bg\ image\ 01\ banner.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+
+    /* top heading  */
+    .airConditionerContentDiv h4 {
+        text-align: center;
+        padding: 25px 0 20px 0;
+        font-size: 2.2rem;
+        font-weight: 800;
+        color: lightgray;
+        text-transform: uppercase;
+        font-family: 'Merienda', cursive;
+        cursor: pointer;
+    }
+
+    .airConditionerTopAnchor a {
+        padding: 0;
+        margin: 5px 0;
+        color: #999;
+        font-size: 1.5rem;
+        font-family: 'Alata', sans-serif;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+        text-decoration: none;
+    }
+
+}
 
 
 /* small devices 422px */
@@ -1657,6 +1815,73 @@
         text-transform: uppercase;
         font-family: 'Merienda', cursive;
         cursor: pointer;
+    }
+
+    /* product detailing css start responsive here  */
+
+    /* top heading  */
+    .airConditionerContentDiv h4 {
+        text-align: center;
+        padding: 30px 0 20px 0;
+        font-size: 2rem;
+        font-weight: 800;
+        color: lightgray;
+        text-transform: uppercase;
+        font-family: 'Merienda', cursive;
+        cursor: pointer;
+    }
+
+    .airConditionerTopAnchor a {
+        padding: 0;
+        margin: 5px 0;
+        color: #999;
+        font-size: 1.3rem;
+        font-family: 'Alata', sans-serif;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+        text-decoration: none;
+    }
+
+    .imagesDetailingBoxDiv {
+        position: relative;
+        overflow: hidden;
+        margin: 50px 0;
+        padding: 0;
+        width: 300px;
+    }
+
+    .images1DetalingDiv {
+        position: relative;
+        width: 290px;
+        height: 240px;
+        cursor: zoom-in;
+        border: 1px solid #999;
+        transition: all 0.5s ease-in-out;
+        overflow: hidden;
+    }
+
+    .images1DetalingDiv img {
+        width: 100%;
+        height: 100%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .images234DetalingDiv img {
+        width: 72.5px;
+        height: 90px;
+        cursor: pointer;
+        border: 1px solid lightgray;
+    }
+
+    #airConditionerBGimage {
+        width: 100%;
+        height: 160px;
+        position: relative;
+        background: rgba(0, 0, 0, 0.7) url(images/air\ Conditioner\ bg\ image\ 01\ banner.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
     }
 
 }
