@@ -1684,3 +1684,134 @@
     text-decoration: none;
     list-style-type: square;
 }
+
+
+/* contact us page css start here  */
+
+
+/* google map  */
+.Googlemap {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    margin: 50px 0;
+
+}
+
+.Googlemap iframe {
+    width: 100%;
+    height: 100%;
+    filter: invert(90%);
+}
+
+/* form  */
+.formMainDiv {
+    padding: 15px 0;
+}
+
+/* form left side  */
+
+.leftFrmcontentTopHeading {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #111;
+    text-transform: uppercase;
+    font-family: 'Merienda', cursive;
+    padding: 20px 10px;
+}
+
+.formFLEXdiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formLeftOLTag {
+    list-style-type: none;
+    padding: 40px 0 0 0;
+}
+
+.formLeftOLTag li {
+    line-height: 30px;
+}
+
+
+.formLeftOLTag i {
+    font-size: 20px;
+    padding: 0 6px;
+    color: #666;
+}
+
+.formLeftOLTag span {
+    font-size: 2rem;
+    padding: 0 6px;
+    font-family: 'Alata', sans-serif;
+}
+
+.formLeftOLTag p {
+    text-transform: capitalize;
+    padding: 14px 4px;
+    font-size: 1.5rem;
+    font-family: 'Alata', sans-serif;
+    line-height: 32px;
+    color: #444;
+}
+
+.userDivsFrm {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.userDivsFrm input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    outline: none;
+}
+
+.rightFrmcontent label {
+    margin: 30px 0 0 0;
+    padding: 0 0 10px 0;
+}
+
+.rightFrmcontent textarea {
+    resize: vertical;
+}
+
+.btnFrm button {
+    padding: 8px 18px;
+    margin: 20px 15px;
+    font-size: 2rem;
+    font-family: 'Bree Serif', serif;
+    cursor: pointer;
+    background-color: white;
+    color: #111;
+    border: 1px solid lightgray;
+    outline: none;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: inset 0 0 0 0 #222;
+
+}
+
+.btnFrm button:hover {
+    box-shadow: inset 0 400px 0 0 #222;
+    color: whitesmoke;
+}
+
+
+.formLeftOLTag a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #444;
+}
+
+.errorFormP p {
+    color: red;
+    padding: 2px;
+    font-weight: bold;
+}

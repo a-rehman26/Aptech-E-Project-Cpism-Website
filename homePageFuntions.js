@@ -662,7 +662,42 @@ function change4productFoodProcesor() {
 }
 
 
+// contact form validation
 
+function contactFrm() {
+    let contactName = document.getElementById("contactFrminputName").value;
+    let contactEmail = document.getElementById("contactFrminputEmail").value;
+
+    let errorNameContactFrm1 = document.getElementById("ContactFrmErrorP1");
+    let errorNameContactFrm2 = document.getElementById("ContactFrmErrorP2");
+
+    let brdContactFrm1 = document.getElementById("userDivsFrmBRDFrmid1");
+    let brdContactFrm2 = document.getElementById("userDivsFrmBRDFrmid2");
+
+
+    if (contactName == "") {
+        brdContactFrm1.style.border = "2px solid red"
+        errorNameContactFrm1.innerHTML = "*This is Required Field"
+        return false
+    }
+
+    else {
+        errorNameContactFrm1.innerHTML = ""
+        brdContactFrm1.style.border = "1px solid #ccc"
+    }
+
+    if (contactEmail == "") {
+        brdContactFrm2.style.border = "2px solid red"
+        errorNameContactFrm2.innerHTML = "*This is Required Field"
+        return false
+    }
+
+    else {
+        brdContactFrm2.style.border = "1px solid #ccc"
+        errorNameContactFrm2.innerHTML = ""
+    }
+
+}
 
 
 
