@@ -1771,6 +1771,7 @@
     left: 0;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 .rightFrmcontent label {
@@ -1814,4 +1815,115 @@
     color: red;
     padding: 2px;
     font-weight: bold;
+}
+
+
+/* login form css start here  */
+
+.loginFormMaindiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+    padding: 10px 0;
+}
+
+.loginFormLeftDiv h2 {
+    text-align: left;
+    padding: 15px 0;
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: #222;
+    font-family: 'Merienda', cursive;
+}
+
+.loginFormLeftDiv hr {
+    border-color: lightgray;
+    margin: 10px 0 50px 0;
+}
+
+.loginFormLeftDiv label {
+    font-size: 1.5rem;
+    color: #222;
+    font-family: 'Alata', sans-serif;
+}
+
+.loginFormLeftDiv {
+    padding: 5px 12px;
+}
+
+.loginForminputDiv {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+
+.loginForminputDiv input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    color: #222;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+.loginFormLeftDiv p {
+    padding: 12px 0;
+    margin: 0;
+    color: #222;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-family: 'Alata', sans-serif;
+    line-height: 23px;
+}
+
+.loginFormLeftDiv button {
+    padding: 8px 25px;
+    margin: 18px 0;
+    font-size: 2rem;
+    letter-spacing: 0.3px;
+    font-family: 'Bree Serif', serif;
+    cursor: pointer;
+    background-color: white;
+    color: #111;
+    border: 1px solid lightgray;
+    outline: none;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: inset 0 0 0 0 #222;
+}
+
+.loginFormLeftDiv button:hover {
+    box-shadow: rgb(34, 34, 34) 0px 400px 0px 0px inset;
+    color: whitesmoke;
+}
+
+.loginFormEyeCheckPasswordDiv {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.loginFormEyeCheckPasswordDiv i {
+    color: #555;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.loginFormEyeCheckPasswordDiv .eyeOpenLoginForm {
+    display: none;
 }

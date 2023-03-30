@@ -700,9 +700,22 @@ function contactFrm() {
 }
 
 
+// login form eye checker password
+
+function LoginFrmEye() {
+    let passLoginFrminput = document.getElementById("loginFrmPasswordinput");
+    let eyeOpen = document.getElementById("eyeOpenLoginfrm");
+    let eyeClose = document.getElementById("eyeCloseLoginfrm");
 
 
+    if (passLoginFrminput.type = "password") {
+        passLoginFrminput.type = "text";
+        eyeOpen.style.display = "none";
+        eyeClose.style.display = "block";
+        eyeClose.style.color = "green";
 
+    }
+}
 
 
 
