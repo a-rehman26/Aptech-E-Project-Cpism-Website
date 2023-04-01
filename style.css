@@ -1927,3 +1927,154 @@
 .loginFormEyeCheckPasswordDiv .eyeOpenLoginForm {
     display: none;
 }
+
+/* about us oage css chand rehman  */
+
+
+.bannerAboutusPage {
+    width: 100%;
+    height: 80vh;
+    border: 1px solid lightgray;
+    margin: 50px 0 25px 0;
+    border-radius: 15px;
+}
+
+.bannerAboutusPage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+
+.aboutUScontentdiv {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.aboutUScontentdiv h4 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #111;
+    /* font-family: 'Merienda', cursive; */
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.aboutUScontentdiv p {
+    text-align: center;
+    font-size: 1.6rem;
+    color: #666;
+    /* font-family: 'Merienda', cursive; */
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 25px 12px;
+}
+
+.banner2 {
+    margin: 30px 0;
+}
+
+.banner2 h2 {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.banner2 p {
+    color: #555;
+    font-family: 'Lato', 'sans-serif';
+}
+
+.cardBanner2 {
+    overflow: hidden;
+}
+
+.cardBanner2 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* costomar cayer*/
+
+
+.flexDiv1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 70px 0 25px 0;
+
+}
+
+.single-box {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 15px 0;
+    position: relative;
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: 15px;
+}
+
+.img-area {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.img-area img {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.single-box h2 {
+    padding: 10px 0 0 0;
+    font-size: 2.6rem;
+    font-family: 'Alata', sans-serif;
+}
+
+.single-box p {
+    padding: 5px 15px 0 15px;
+    font-family: 'Lato', 'sans-serif';
+}
+
+.testimonialTopHeading {
+    margin: 75px 0;
+    text-align: center;
+}
+
+.testimonialTopHeading h2 {
+    position: relative;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 2.6rem;
+    font-weight: 800;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Merienda', cursive;
+    cursor: pointer;
+    text-shadow: 0 1px 1px skyblue;
+}
+
+.testimonialTopHeading h1 {
+    position: relative;
+    text-align: center;
+    padding: 0;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Merienda', cursive;
+    cursor: pointer;
+    text-shadow: 0 1px 1px skyblue;
+}
